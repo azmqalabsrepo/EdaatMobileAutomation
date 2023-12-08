@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-class Suite" >
+  <test name="Test-class test 3">
+    <parameter name="test-name" value="test-method" />
+        <classes>        				
+		    <class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminReceivablesExportBills"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminReceivablesExportContact"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminReceivablesIDPrintBills"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminReceivablesSaveBills"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminAddIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminAddInvoiceIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminDeleteIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminDownloadIDIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminExportIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminGridViewIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminSearchIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminToggleIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminUpdateIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminViewInvoiceIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminAddCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminAddInvoiceCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminDeleteCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminExportCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminGridViewCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminSearchCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminToggleCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminUpdateCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminViewInvoiceCorporateClient"/>
+        </classes>	
+    </test>
+</suite>

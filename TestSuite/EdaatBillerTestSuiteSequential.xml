@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-class Suite" >
+  <test name="Test-class test 3">
+    <parameter name="test-name" value="test-method" />
+        <classes>        				
+			<!--class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerLogin" />      				
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerAddIndividualClient" />
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerIndividualClientSearch"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSubbillersSearch"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerCreateProduct"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerInvalidLogin"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerLoginForgetPassword"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerDeleteIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerSignUp"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerAddCorporateClient"/>
+        	<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerCorporateClientSearch"/>
+        	<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerCorporateUpdateClient"/>
+        	<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerExportDeactiveViewCorporateClient"/>
+        	<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerAddInvoicetemplate"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerUpdateIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerDeleteCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerDeleteIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerExportDeactiveViewIndividualClient" />
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerReceivablesExportBills"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillersystemmanagementNotapprovedGridview"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillersystemmanagementApprovedGridview"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillersystemmanagementApprovedtoggle"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerDetailsUpdate"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerViewInvoiceIndcorpClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerAddInvoiceIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerAddInvoiceCorporateClient"/-->
+		<!--	<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminReceivablesExportBills"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminReceivablesExportContact"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminReceivablesIDPrintBills"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminReceivablesSaveBills"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminAddIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminDeleteIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminGridViewIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminUpdateIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminAddInvoiceIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminDownloadIDIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminAddCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminDeleteCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminGridViewCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminUpdateCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminAddInvoiceCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminToggleCorporateClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminIndividualClientSearch"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminExportIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminToggleIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminViewInvoiceIndividualClient"/>-->
+			<class name="com.azmqalabs.edaattestautomation.testscripts.admin.AdminViewInvoiceCorporateClient"/>
+        </classes>	
+    </test>
+</suite>

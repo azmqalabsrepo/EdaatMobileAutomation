@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-class Suite" parallel="tests" thread-count="8">
+	
+<!-- Scenario 1-->
+	<test name="Test-class test 1">
+		<parameter name="test-name" value="test-method" />
+		<classes>
+			<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerLogin" />      				
+			<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerAddIndividualClient" />		</classes>
+	</test>
+	
+<!-- Scenario 2-->
+	<test name="Test-class test 2">
+		<parameter name="test-name" value="test-method" />
+		<classes>
+			<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerIndividualClientSearch"/>
+			<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerSubbillersSearch"/>
+			<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerCreateProduct"/>
+		</classes>
+	</test>
+
+<!-- Scenario 3-->
+	<test name="Test-class test 3">
+		<parameter name="test-name" value="test-method" />
+		<classes>
+		<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerInvalidLogin"/>
+			<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerLoginForgetPassword"/>
+			<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerDeleteIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerExportDeactiveViewIndividualClient" />
+		</classes>
+	</test>
+<!-- Scenario 4-->
+	<test name="Test-class test 4">
+		<parameter name="test-name" value="test-method" />
+		<classes>
+		<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerUpdateIndividualClient"/>
+			<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerSignUp"/>
+			<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerAddCorporateClient"/>
+        	<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerCorporateClientSearch"/>
+		</classes>
+	</test>
+<!-- Scenario 5-->
+	<test name="Test-class test 5">
+		<parameter name="test-name" value="test-method" />
+		<classes>
+		<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerDeleteCorporateClient"/>
+      
+		</classes>
+	</test>
+<!-- Scenario 6-->
+	<test name="Test-class test 6">
+		<parameter name="test-name" value="test-method" />
+		<classes>
+  		<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerCorporateUpdateClient"/>
+  		</classes>
+	</test>
+<!-- Scenario 7-->
+	<test name="Test-class test 7">
+		<parameter name="test-name" value="test-method" />
+		<classes>
+        	<class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerExportDeactiveViewCorporateClient"/>
+		</classes>
+	</test>
+<!-- Scenario 8-->
+	<test name="Test-class test 8">
+		<parameter name="test-name" value="test-method" />
+		<classes>
+		     <class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerAddInvoicetemplate"/>
+		     <class name="com.azmqalabs.edaattestautomation.biller.testscripts.BillerReceivablesExportBills"/>
+
+		</classes>
+	</test>
+</suite>

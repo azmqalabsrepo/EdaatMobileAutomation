@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-class Suite" >
+  <test name="Test-class test 3">
+    <parameter name="test-name" value="test-method" />
+        <classes>        				
+		   	<class name="com.azmqalabs.edaattestautomation.testscripts.biller.BillerLogin"/>
+        </classes>	
+    </test>
+</suite>
